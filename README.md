@@ -7,7 +7,7 @@ I spent some time looking into the web page and controller code and found a few 
 
 By taking advantage of the discovered CGI scripts, someone could easily create a custom interface to manipulate the DTV+ components (Turn shower on, off, Turn on massage, Manipulate Audio or Lighting, etc).
 
-None of this is documented by Kohler and as such such you will assume all responsibility for issues that may present themselves from interfacing with the contorller in this way.
+None of this is documented by Kohler and as such such you will assume all responsibility for issues that may present themselves from interfacing with the controller in this way.
 
 Here is a list of all CGI scripts I found that were coded into the controller. These can be executed by appending them to the end of the system controller url. For example: http://192.168.1.222/check_updates.cgi
 
