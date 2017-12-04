@@ -1,5 +1,5 @@
 # Kohler-DTV-
-Results of snooping the Kohler DTV+ system controller and associated web page.
+Results of analyzing the Kohler DTV+ system controller and associated web page.
 
 The Kohler DTV+ system controller (K-99695-NA and K-99693-P-NA) has an associated web page that is used to confogure the system components.
 
