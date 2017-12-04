@@ -69,3 +69,11 @@ Regarding the controller itself.
 I have found that it is not possible to SSH into the contorller through the DHCP provided IP address. However, through analysis of the system operating system I see that they have an implementation of SSHD active on the chip. I assume that it is not enabled. There is also no active USB port. However, the board itself has pins for one. I believe Kohler has removed the USB port in the latest models.
 
 Without a USB port and no SSH access it will be very difficult to devise another way of interfcing with the controller other than through the discovered cgi scripts.
+
+** UPDATE **
+
+I have found a few references to what looks to be a REST api in some of the files Iwas able to peep into.
+
+In particular, I see a reference to "/api/v1/device/status/"
+
+I will be spending some time looking into this to see what I can find. Stay tuned.
