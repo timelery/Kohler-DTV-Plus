@@ -62,7 +62,4 @@ bt_disconnect.cgi
 sim_dev_values.cgi
 massage_toggle.cgi
 powerclean_check.cgi
-stop_shower
-
-
-
+stop_shower.cgi
