@@ -63,3 +63,9 @@ sim_dev_values.cgi
 massage_toggle.cgi
 powerclean_check.cgi
 stop_shower.cgi
+
+Regarding the controller itself.
+
+I have found that it is not possible to SSH into the contorller through the DHCP provided IP address. However, through analysis of the system operating system I see that they have an implementation of SSHD active on the chip. I assume that it is not enabled. There is also no active USB port. However, the board itself has pins for one. I believe Kohler has removed the USB port in the latest models.
+
+Without a USB port and no SSH access it will be very difficult to devise another way of interfcing with the controller other than through the discovered cgi scripts.
